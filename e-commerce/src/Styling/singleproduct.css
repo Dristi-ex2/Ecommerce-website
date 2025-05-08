@@ -1,0 +1,42 @@
+
+.grid-two-columns{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
+    padding: 10px 50px;
+    gap: 40px;
+}
+.product-data{
+    box-shadow: 0 0 10px grey;
+    padding: 20px;
+}
+.product-data h2{
+    text-align: center;
+}
+.product-data p{
+    padding: 5px;
+}
+.product-data-icons{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 0;
+}
+
+.delivery{
+    margin-left: 40px;
+}
+
+.delivery svg {
+    height: 30px; 
+    width: 30px;
+   }
+  .grid-two-columns span{
+    font-weight: bold;
+  }
+  .icon-style{
+    display: flex;
+  }
+  .starstyling{
+    margin-top: 5px;
+  }
+

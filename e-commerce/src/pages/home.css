@@ -1,0 +1,23 @@
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 40px;
+    padding: 50px;
+}
+.card1{
+    padding-top: 90px;
+    text-align: center;
+}
+.card1 h1{
+    font-size: 50px;
+}
+.card1 p{
+    padding: 20px;
+    font-size: 18px;
+}
+.card1 span{
+    color: blueviolet;
+}
+.card2 img{
+    height: 400px;
+}

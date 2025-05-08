@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+     box-sizing: border-box;
+}
+
+
+.Features h1,.loading{
+    text-align: center;
+}
+
+.Features-cards{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.Features-cards img{
+    height: 250px;
+
+}
+
+.card-data-flex,.caption{
+    text-align: center;
+}

@@ -1,0 +1,21 @@
+
+.imagecards{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
+
+.grid-four-rows img{
+    height: 110px;
+    width: 150px;
+}
+
+.grid-second-row img{
+height: 300px;
+margin-top: 50px;
+}
+
+.grid-four-rows img:hover{
+    transform: translate(50px);
+    transition-timing-function: ease;
+}

@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    gap: 80px;
+    background-color: #B2A5FF;
+}
+
+.navbar ul{
+    display: flex;
+    gap: 30px;
+    padding-top: 8px;
+
+}
+.navbar li{
+    list-style-type: none;
+}
+.navbar a{
+    text-decoration: none;
+}
+
+.navbar a:hover{
+    border-bottom: 2px solid white;
+}
+.signup-logout .signin{
+    padding: 10px;
+    background-color: green;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 30px;
+    
+}
+.signup-logout .logout{
+    margin-left: 30px;
+    padding: 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+
+}
+.cart-logo span{
+    position: absolute;
+    border-radius: 40px;
+    background-color: white;
+    padding: 1px;
+}
+
+.mobile-navbar-btn{
+    display: none;
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+}
+
+.mobile-nav-icon:hover {
+    color: #555;
+  }
+  
+@media (max-width: 768px) {
+    .mobile-navbar-btn {
+      display: block;
+      z-index: 10;
+    }
+  
+    .list ul {
+      flex-direction: column;
+      position: absolute;
+      top: 70px;
+      right: 0;
+      background-color: white;
+      width: 100%;
+      padding: 1rem;
+      display: none; /* hidden by default */
+    }
+  
+    .list.mobile-menu-active ul {
+      display: flex; /* shown when menu is open */
+    }
+  
+    .signup-logout,
+    .cart-logo {
+      display: none;
+    }
+  }

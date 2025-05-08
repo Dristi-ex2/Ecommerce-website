@@ -1,0 +1,26 @@
+#blog{
+    background-color: #f8dfd1;
+    padding: 80px 70px 80px 70px;
+
+}
+.blog-grid{
+    
+    display: flex;
+    justify-content: center;
+
+}
+.blog1{
+    margin-left: 90px;
+}
+.blog1 h4{
+padding: 10px 0 10px 0;
+}
+.blog-p2{
+    color: grey;
+    margin-top: 10px;
+}
+.blog-p{
+    color: black;
+    margin-top: 10px;
+    font-size: 16px;
+}

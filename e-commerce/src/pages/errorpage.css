@@ -1,0 +1,23 @@
+
+.error{
+    padding: 50px;
+}
+.error h1,.error p{
+  text-align: center;
+  color: crimson;
+  font-weight: bold;
+
+}
+.error button{
+    display: flex;
+    margin:5% 48%;
+    padding: 8px;
+    background-color: #C5BAFF;
+    border: none;
+
+}
+
+a{
+    text-decoration: none;
+
+}

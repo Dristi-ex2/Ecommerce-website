@@ -1,0 +1,51 @@
+#Contact{
+    background-color: #1f234a;
+    color: white;
+    padding: 90px;
+    display: flex;
+justify-content: center;  
+}
+
+.footer-div{
+    
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 40px; 
+    max-width: 1200px; 
+    margin-left: 80px;
+}
+
+
+
+ .twitter-logo,.facebook-logo{
+    margin-top: 40px;
+    border: 2px solid white;
+    border-radius: 80px;
+    padding: 5px;
+    cursor: pointer;
+
+
+ }
+
+ .p-logo{
+    height: 40px;
+    margin-top: 15px;
+    cursor: pointer;
+ }
+
+.footer-div1 p,.footer-div2-p,.footer-div3-p,.footer-div4-p{
+padding-top: 20px;
+font-size: 12px;
+}
+
+
+.img{
+    height: 40px;
+}
+
+.last-para{
+    text-align: center;
+    background-color: #1f234a;
+    color: white;
+    padding-bottom: 30px;
+}
