@@ -1,0 +1,31 @@
+
+body{
+    text-align: center;
+}
+.filter-search input{
+    box-shadow: 0 0 10px grey;
+    border: none;
+    border-radius: 10px;
+}
+.filter-search ::placeholder{
+    text-align: center;
+}
+.filter-category button{
+    border: none;
+    background-color: white;
+    display: flex;
+    margin-left: 45%;
+    padding-top: 15px;
+}
+.filter-category button:hover{
+    cursor: pointer;
+    color:gray;
+}
+.company-category h3{
+    padding: 20px;
+}
+.filter-colors-style button{
+    border: none;
+    border-radius: 50%;
+    padding: 10px;
+}

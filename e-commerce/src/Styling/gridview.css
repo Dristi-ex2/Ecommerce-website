@@ -1,0 +1,10 @@
+.grid-three-column{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.grid-three-column img{
+    height: 250px;
+    width: 250px;
+    gap: 20px;
+}

@@ -41,7 +41,10 @@ function Navbar() {
           <span>10</span>
         </div>
 
-        <div className="mobile-navbar-btn" onClick={() => setIsMenuOpen(!isMenuOpen)}>
+        <div
+          className="mobile-navbar-btn"
+          onClick={() => setIsMenuOpen(!isMenuOpen)}
+        >
           {isMenuOpen ? (
             <CgClose className="mobile-nav-icon close-outline" />
           ) : (

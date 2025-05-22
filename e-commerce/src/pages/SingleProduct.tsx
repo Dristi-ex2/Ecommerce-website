@@ -35,9 +35,16 @@ function SingleProduct() {
     image,
   } = singleProduct;
 
+  // useEffect(() => {
+  //   getSingleProduct(`${API}?id=${id}`); //get id we write in localhost
+  // }, []);
+
   useEffect(() => {
-    getSingleProduct(`${API}?id=${id}`); //get id we write in localhost
-  }, []);
+  if (id) {
+    getSingleProduct(`${API}?id=${id}`);
+  }
+}, [id]);
+
 
   //code for reloading in pagenavigation
   if (isSingleLoading) {
